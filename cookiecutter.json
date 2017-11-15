@@ -1,0 +1,15 @@
+{
+    "full_name": "Shaurita Hutchins",
+    "email": "shutchins2@umc.edu",
+    "github_username": "sdhutchins",
+    "github_url_repo_name": "Repository Name",
+    "python_package_name": "pyproject",
+    "project_slug": "{{ cookiecutter.github_url_repo_name.lower().replace(' ', '-') }}",
+    "project_short_description": "A short description of your project",
+    "python_version": "3",
+    "release_date": "{% now 'local' %}",
+    "version": "0.1.0",
+    "license_year": "2017",
+    "license": "MIT",
+    "_extensions": ["jinja2_time.TimeExtension"]
+}
