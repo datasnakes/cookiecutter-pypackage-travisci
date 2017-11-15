@@ -33,8 +33,6 @@ Development Code
 
 Examples
 ~~~~~~~~~~~~~~~~
-Check out this `tutorial <https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/wiki/Tutorial>`__ in our Wiki Docs.
-
 .. code:: python
 
     import {{cookicutter.python_package_name}}
