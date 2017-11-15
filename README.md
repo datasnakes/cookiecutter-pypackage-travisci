@@ -1,4 +1,4 @@
-cookiecutter-pyproject-travisci
+cookiecutter-pypackage-travisci
 ==================================
 A cookiecutter template for creating a python project & using travis ci for
 continuous integration.
@@ -15,9 +15,9 @@ Also, check out [@audreyr](https://github.com/audreyr)'s [cookiecutter](https://
 
 Usage
 -----
-To start a new computational biology project:
+To start a new travisci python package:
 
-`cookiecutter gh:datasnakes/cookiecutter-pyproject-travisci`
+`cookiecutter gh:datasnakes/cookiecutter-pypackage-travisci`
 
 License
 -------
