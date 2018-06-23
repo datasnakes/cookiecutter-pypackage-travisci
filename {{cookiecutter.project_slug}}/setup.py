@@ -13,9 +13,6 @@ from os import path
 import os
 import sys
 
-# Save the standard error of the setup file. This can be removed soon.
-sys.stderr = open('err.txt', 'w')
-
 # Set the home path of the setup script/package
 __version__ = '{{cookiecutter.version}}'
 project_path = os.path.dirname(os.path.abspath(__file__))
@@ -35,7 +32,7 @@ setup(
     name=project_name,
     author='{{cookiecutter.full_name}}',
     author_email='{{cookiecutter.email}}',
-    description="This package aids in the analysis of orthologous genes.",
+    description="{{cookiecutter.project_short_description}}.",
     version=__version__,
     long_description=readme(),
     url=project_url,
@@ -48,7 +45,7 @@ setup(
         'Framework :: Cookiecutter'
     ],
     # Packages will be automatically found if not in this list.
-    packages=find_packages(exclude=['Docs', 'Tests']),
+    packages=find_packages(exclude=['docs', 'tests']),
     include_package_data=True,
     entry_points={
     },
