@@ -41,7 +41,7 @@ setup(
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Natural Language :: English',
-        'Programming Language :: Python :: {{cookiecutter.python_version}}',
+        'Programming Language :: Python :: 3',
         'Framework :: Cookiecutter'
     ],
     # Packages will be automatically found if not in this list.
