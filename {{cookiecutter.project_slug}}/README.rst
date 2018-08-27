@@ -4,7 +4,7 @@
 {{cookiecutter.project_slug}}
 ==============================
 
-{{cookicutter.project_short_description}}
+{{cookiecutter.project_short_description}}
 
 Overview
 --------------------
@@ -15,7 +15,7 @@ View the below methiods for installing this package.
 
 PyPi
 ^^^^^^^^^^^^^^
-``pip install {{cookicutter.python_package_name}}``
+``pip install {{cookiecutter.python_package_name}}``
 
 GitHub
 ^^^^^^^^^^^^^^
