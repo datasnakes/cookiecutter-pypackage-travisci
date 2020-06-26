@@ -35,7 +35,7 @@ Examples
 ~~~~~~~~~~~~~~~~
 .. code:: python
 
-    import {{cookicutter.python_package_name}}
+    import {{cookiecutter.python_package_name}}
 
 Tests
 ~~~~~~~~~~~~~~~~
